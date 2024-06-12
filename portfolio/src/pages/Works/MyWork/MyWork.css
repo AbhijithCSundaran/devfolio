@@ -1,0 +1,18 @@
+.work-box .img_wrpr {
+    overflow: hidden;
+}
+.work-box a{
+    text-decoration: none;
+}
+
+.work-box .img_wrpr img {
+    transition: all 0.25s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.work-box:hover .img_wrpr img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}

@@ -1,0 +1,19 @@
+.about .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about .about-img {
+    width: 150px;
+}
+
+.skill span {
+    color: #4e4e4e;
+    font-size: 13px;
+    font-weight: 600;
+}
+.skill .progressbar {
+    width: 75%;
+    display: grid;
+    align-content: center;
+}
